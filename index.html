@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <p id="errorMessage"></p>
+      <h1>Calculator</h1>
+      <form>
+        <div class="column">
+          <label for="firstNumber">First number:</label>
+          <input
+            type="text"
+            id="firstNumber"
+            name="firstNumber"
+            placeholder="0"
+          />
+        </div>
+        <div class="column">
+          <label for="secondNumber">Second number:</label>
+          <input
+            type="text"
+            id="secondNumber"
+            name="secondNumber"
+            placeholder="0"
+          />
+        </div>
+      </form>
+      <div class="buttons">
+        <a href="#" id="sum">+</a>
+        <a href="#" id="sub">-</a>
+        <a href="#" id="div">/</a>
+        <a href="#" id="mul">*</a>
+        <a href="#" id="mod">%</a>
+        <a href="#" id="clear">clear</a>
+      </div>
+      <div class="result">
+        <h3>Result:</h3>
+        <p id="result">0</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
