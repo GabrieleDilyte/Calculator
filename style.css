@@ -12,23 +12,6 @@
   border-radius: 30px;
   padding: 40px 10px;
 }
-.buttons > a {
-  background-color: black;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-size: 18px;
-}
-.buttons > a:hover {
-  background-color: rgb(46, 46, 46);
-}
 form {
   display: flex;
   justify-content: center;
@@ -47,8 +30,20 @@ input {
 #clear:hover {
   background-color: rgb(197, 122, 122);
 }
-#errorMessage {
-  color: rgb(207, 111, 111);
-  font-size: 15px;
-  margin-bottom: 10px;
+button {
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 18px;
+}
+button:hover {
+  background-color: rgb(46, 46, 46);
 }

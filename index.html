@@ -14,13 +14,12 @@
   </head>
   <body>
     <div class="calculator">
-      <p id="errorMessage"></p>
       <h1>Calculator</h1>
       <form>
         <div class="column">
           <label for="firstNumber">First number:</label>
           <input
-            type="text"
+            type="number"
             id="firstNumber"
             name="firstNumber"
             placeholder="0"
@@ -29,7 +28,7 @@
         <div class="column">
           <label for="secondNumber">Second number:</label>
           <input
-            type="text"
+            type="number"
             id="secondNumber"
             name="secondNumber"
             placeholder="0"
@@ -37,12 +36,12 @@
         </div>
       </form>
       <div class="buttons">
-        <a href="#" id="sum">+</a>
-        <a href="#" id="sub">-</a>
-        <a href="#" id="div">/</a>
-        <a href="#" id="mul">*</a>
-        <a href="#" id="mod">%</a>
-        <a href="#" id="clear">clear</a>
+        <button type="button" id="sum">+</button>
+        <button type="button" id="sub">-</button>
+        <button type="button" id="div">/</button>
+        <button type="button" id="mul">*</button>
+        <button type="button" id="mod">%</button>
+        <button type="button" id="clear">clear</button>
       </div>
       <div class="result">
         <h3>Result:</h3>
